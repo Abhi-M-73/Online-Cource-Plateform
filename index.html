@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educational Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
 </head>
 <body class="bg-green-50">
     <!-- Top Navbar -->
     <div class="bg-gray-800 text-white flex justify-center gap-10 p-2 text-sm">
         <p>All Courses 28% Off for Indian People's</p>
         <div class="flex items-center space-x-4">
-            <span><i class="fas fa-phone"></i> (970) 262-1413</span>
-            <span><i class="fas fa-envelope"></i> address@gmail.com</span>
+            <span><i class="ri-phone-fill"></i></i> (970) 262-1413</span>
+            <span><i class="ri-mail-unread-fill"></i> address@gmail.com</span>
             <span class="space-x-2">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></i></a>
             </span>
         </div>
     </div>
@@ -66,7 +69,6 @@
 
     <!-- Course Listing Section -->
     <section class="py-16 px-6 lg:px-32">
-        <!-- Section Title -->
         <div class="text-center mb-10">
             <h2 class="text-3xl font-bold text-gray-800">All <span class="text-green-600">Courses</span> Edu<span class="text-green-600">Le</span></h2>
             <div class="mt-4 max-w-md mx-auto">
@@ -74,8 +76,7 @@
             </div>
         </div>
 
-        <!-- Filter Buttons -->
-        <div class="flex justify-center space-x-4 mb-10">
+        <div class="flex justify-center gap-4 mb-10">
             <button class="bg-green-100 text-green-600 px-4 py-2 rounded-full">UI/UX Design</button>
             <button class="bg-gray-100 text-gray-600 px-4 py-2 rounded-full">Development</button>
             <button class="bg-gray-100 text-gray-600 px-4 py-2 rounded-full">Data Science</button>
@@ -85,10 +86,10 @@
 
         <!-- Course Cards Grid -->
         <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            <!-- Course Card 1 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+        
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-95 transition-all duration-300">
                 <img src="https://i.pinimg.com/564x/82/34/4c/82344c2bee59fa154ef7d7e3c79bc7b8.jpg" alt="Course Image" class="w-full h-48 object-cover">
-                <div class="p-4">
+                <div class="p-4 ">
                     <h3 class="text-lg font-bold text-gray-800">Data Science and Machine Learning with Python - Hands On!</h3>
                     <p class="text-sm text-gray-500 mt-2">Jason Williams • Science</p>
                     <div class="flex items-center justify-between mt-4">
@@ -104,8 +105,7 @@
                 </div>
             </div>
 
-            <!-- Course Card 2 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-95 transition-all duration-300">
                 <img src="https://i.pinimg.com/564x/23/fc/80/23fc80c5698e2df3cdcfbdae118749a0.jpg" alt="Course Image" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-lg font-bold text-gray-800">Create Amazing Color Schemes for Your UX Design Projects</h3>
@@ -123,8 +123,7 @@
                 </div>
             </div>
 
-            <!-- Course Card 3 -->
-            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-95 transition-all duration-300">
                 <img src="https://i.pinimg.com/564x/1f/80/30/1f80305e3a1d47a72c59c6f96b408632.jpg" alt="Course Image" class="w-full h-48 object-cover">
                 <div class="p-4">
                     <h3 class="text-lg font-bold text-gray-800">Culture & Leadership: Strategies for a Successful Business</h3>
@@ -143,11 +142,185 @@
             </div>
         </div>
 
-        <!-- Other Courses Button -->
         <div class="mt-10 text-center">
             <button class="bg-green-600 text-white px-8 py-2 rounded-lg hover:bg-green-700">Other Courses</button>
         </div>
     </section>
+
+    <!-- Become an Instructor Section -->
+    <section class="p-16 shadow-md bg-white">
+        <div class="flex items-center justify-between ">
+            <div>
+                <h2 class="text-2xl text-green-600 font-bold mb-2">Become an Instructor</h2>
+                <p class="mb-4 text-5xl font-bold">You can join with Edule  <Br />as an <span class="text-green-600">instructor?</span></p>
+            </div>
+            <button class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded">Drop Information</button>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="bg-white shadow-lg p-20 mt-20">
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold">How It Works?</h2>
+        </div>
+        <div class="flex items-center justify-between">
+            <div class="text-center p-8 bg-gray-200 hover:shadow-lg transition-shadow duration-300">
+                <i class="ri-search-line text-4xl"></i>
+                <h3 class="font-semibold mt-5 text-2xl">Find Your Course</h3>
+            </div>
+            <i class="ri-arrow-right-line text-5xl"></i>
+            <div class="text-center px-16 py-8 bg-gray-200 hover:shadow-lg transition-shadow duration-300">
+                <i class="ri-book-2-fill text-4xl"></i>
+                <h3 class="font-semibold mt-5 text-2xl">Book A Seat</h3>
+            </div>
+            <i class="ri-arrow-right-line text-5xl"></i>
+            <div class="text-center px-12 py-8 bg-gray-200 hover:shadow-lg transition-shadow duration-300">
+                <i class="ri-git-repository-commits-fill text-4xl"></i>
+                <h3 class="font-semibold mt-5 text-2xl">Get Certificate</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Download Section -->
+    <section class="bg-green-700 text-white p-20 mt-8 shadow-md">
+        <div class="flex items-center justify-between">
+            <div>
+                <h2 class="text-5xl font-bold mb-4">Ready to start?</h2>
+                <p class="mb-4 text-3xl font-semibold">Download our mobile app for <br> easy access to your courses.</p>
+            </div>
+            <div class="flex justify-center space-x-4">
+                <button class="bg-white text-green-600 hover:bg-black hover:text-white px-4 py-2 rounded">Google Play</button>
+                <button class="bg-black text-white hover:bg-white hover:text-green-600 px-5 py-2 rounded">App Store</button>
+            </div>
+        </div>
+    </section>
+
+     <!-- Teacher Testimonial Section -->
+     <section class="p-8">
+        <h2 class="text-4xl text-center mt-10 mb-20 font-bold text-gray-800">Teacher Testimonial</h2>
+        <div class="flex justify-between gap-8">
+
+            <div class="bg-white p-6 rounded-lg shadow-md w-1/3 hover:shadow-lg transition-shadow duration-300">
+                <div class="h-32 w-32 mx-auto mb-5">
+                    <img src="https://i.pinimg.com/564x/47/91/f0/4791f027dcad85f85883359daf191c5d.jpg" alt="Student 2" class="h-full w-full object-cover object-top rounded-full mb-4">   
+                </div>
+                <p class="text-gray-600 mb-4">"Edule has transformed my learning experience. The courses are well-structured and the instructors are amazing!"</p>
+                <h3 class="font-semibold text-gray-800">Sara Alexander</h3>
+                <span class="text-center">★★★</span>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md w-1/3 hover:shadow-lg transition-shadow duration-300">
+                <div class="h-32 w-32 mx-auto mb-5">
+                    <img src="https://i.pinimg.com/564x/83/7a/73/837a7389d09d193af77ffd03f64dffd4.jpg" alt="Student 2" class="h-full w-full object-cover object-top rounded-full mb-4">
+                </div>
+                <p class="text-gray-600 mb-4">"The platform is user-friendly and the support team is always ready to help. Highly recommend Edule!"</p>
+                <h3 class="font-semibold text-gray-800">Melissa Roberts</h3>
+                <span class="text-center">★★★</span>
+            </div>
+            
+             <div class="bg-white p-6 rounded-lg shadow-md w-1/3 hover:shadow-lg transition-shadow duration-300">
+                <div class="h-32 w-32 mx-auto mb-5">
+                    <img src="https://i.pinimg.com/564x/bf/f4/5e/bff45ef1755af32638afaa6adb79199d.jpg" alt="Student 2" class="h-full w-full object-cover object-top rounded-full mx-auto mb-4">
+                </div>
+                <p class="text-gray-600 mb-4">"The platform is user-friendly and the support team is always ready to help. Highly recommend Edule!"</p>
+                <h3 class="font-semibold text-gray-800">Melissa Roberts</h3>
+                <span class="text-center">★★★</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Best Supporter of Edule Section -->
+    <section class="p-8 mt-8 bg-green-100">
+        <h2 class="text-4xl text-center font-bold text-gray-800">Best Supporter of Edule</h2>
+            <div class="flex gap-10 items-center justify-center">
+                <img src="sup1.png" alt="Supporter 1" class="w-52 h-52 rounded-full">
+                <img src="sup2.png" alt="Supporter 2" class="w-52 h-52 rounded-full">
+                <img src="sup3.png" alt="Supporter 3" class="w-52 h-52 rounded-full">
+                <img src="sup4.png" alt="Supporter 4" class="w-52 h-52 rounded-full">
+                <img src="sup5.png" alt="Supporter 5" class="w-52 h-52 rounded-full">
+                <img src="sup6.png" alt="Supporter 6" class="w-52 h-52 rounded-full">
+            </div>
+       
+    </section>
+
+    <!-- Latest News & Tricks Section -->
+    <section class="p-8 bg-white">
+        <div class="text-center mb-10 mt-5">
+            <h2 class="text-4xl font-bold text-gray-800">Latest News & Tricks</h2>
+            <p class="text-gray-600 text-xl">Educational Tips & Tricks</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+           
+            <div class="bg-white p-6 rounded-lg shadow-md hover:scale-95 transition-all duration-300">
+                <img src="https://i.pinimg.com/736x/51/d5/48/51d548911242e61017adcdfbed429f59.jpg" alt="Article 1" class="w-full h-48 object-cover object-center rounded-t-lg mb-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Data Science and Machine Learning</h3>
+                <p class="text-gray-600 mb-4">Learn the latest trends in data science and machine learning.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read More...</a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md hover:scale-95 transition-all duration-300">
+                <img src="https://i.pinimg.com/564x/56/cb/b3/56cbb39955aee9c2cc7ee340299d6f79.jpg" alt="Article 2" class="w-full h-48 object-cover object-center rounded-t-lg mb-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Creating Engaging Course Content</h3>
+                <p class="text-gray-600 mb-4">Tips on how to create engaging and effective course content.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read More...</a>
+            </div>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md hover:scale-95 transition-all duration-300">
+                <img src="https://i.pinimg.com/564x/6f/4d/33/6f4d33af8a7465adfd9bcaa80cbad1bf.jpg" alt="Article 3" class="w-full h-48 object-cover object-top rounded-t-lg mb-4">
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Leadership Strategies for Educators</h3>
+                <p class="text-gray-600 mb-4">Explore effective leadership strategies for educators.</p>
+                <a href="#" class="text-blue-500 hover:underline">Read More...</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-8 mt-8">
+        <div class="flex items-center justify-center gap-20">
+            <div>
+                <h3 class="text-xl font-bold mb-4">Edule</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Edule</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold mb-4">Edule</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">Courses</a></li>
+                    <li><a href="#" class="hover:underline">Blog</a></li>
+                    <li><a href="#" class="hover:underline">Support</a></li>
+                </ul>
+            </div>
+           
+            <div>
+                <h3 class="text-xl font-bold mb-4">Subscribe</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" class="p-2 rounded w-full mb-4">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded w-full">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
